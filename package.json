@@ -4,7 +4,7 @@
   "description": "A library to parse config files of different formats into a single config object",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "istanbul cover node_modules/mocha/bin/_mocha -- -t 16000 test.js"
   },
   "keywords": [
     "config",
@@ -17,7 +17,14 @@
   "author": "ConiCode",
   "license": "ISC",
   "devDependencies": {
+    "eslint-plugin-mocha": "^5.2.0",
+    "fast-deep-equal": "^2.0.1",
     "istanbul": "^0.4.5",
+    "js-yaml": "^3.12.0",
     "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "deepmerge": "^3.0.0",
+    "strip-bom": "^3.0.0"
   }
 }
