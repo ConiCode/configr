@@ -1,0 +1,15 @@
+{
+    "jsonKey": true,
+    "array": [
+        1,
+        3,
+        5
+    ],
+    "sub": {
+        "2": "json",
+        "json": 2,
+        "subsub": {
+            "jsonDeep": true
+        }
+    }
+}

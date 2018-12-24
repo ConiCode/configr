@@ -1,0 +1,9 @@
+yamlKey: false
+array2:
+  - 4
+  - 2
+sub:
+  1: test
+  test: 1
+  subsub:
+    deep: true

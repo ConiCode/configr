@@ -1,0 +1,8 @@
+key: value
+key2: value
+array:
+  - 1
+  - 2
+  - 3
+sub:
+  test: 1
