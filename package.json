@@ -14,7 +14,7 @@
     "yaml",
     "json"
   ],
-  "author": "ConiCode",
+  "author": "Michael Sedlak <michael.sedlak@conicode.at> (conicode.at)",
   "license": "ISC",
   "devDependencies": {
     "eslint-plugin-mocha": "^5.2.0",
