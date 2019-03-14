@@ -41,7 +41,7 @@ configr.parse('config', function(err, data) {
 });
 
 
-// You can create a new configr options with different settings than the global one
+// You can create a new configr objects with different settings than the global one
 // It behaves exaclty the same as the global object
 let modelConfig = new configr.Configr('./models');
 
