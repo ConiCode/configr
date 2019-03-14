@@ -69,7 +69,7 @@ modelConfig.parse('user').then(function(userConfig) {
 * [x] Make configr instantiable to have multiple configurations at the same time
 * [ ] Add schema validation
 
-# Authors
+## Authors
 Michael Sedlak
 
 ## License
