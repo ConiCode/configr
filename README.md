@@ -24,7 +24,7 @@ configr.parser.yaml = YAML.safeLoad;
 configr.basepath = './config';
 
 // Parse files with name 'config' (don't specify the file extension!)
-let config = configr.parseFileSync('config');
+let config = configr.parseFilesSync('config');
 
 // Parse files in other directory, using UTF-16 LE as their encoding
 // All encodings supported by node are valid
