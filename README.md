@@ -34,3 +34,4 @@ let otherConfig = configr.parseFileSync('otherConfig', './config/data', 'utf16le
 ## TODO
 * [ ] Add `parseFile(...)` function for asynchronous parsing
 * [ ] Make configr instantiable to have multiple configurations at the same time
+* [ ] Add schema validation
