@@ -68,3 +68,9 @@ modelConfig.parse('user').then(function(userConfig) {
 * [x] Add `parse(...)` function for asynchronous parsing
 * [x] Make configr instantiable to have multiple configurations at the same time
 * [ ] Add schema validation
+
+# Authors
+Michael Sedlak
+
+## License
+ISC
